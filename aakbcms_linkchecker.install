@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Handle module install and uninstall.
+ */
+/**
+ * Implements hook_uninstall().
+ */
+function aakbcms_linkchecker_uninstall() {
+  module_disable(array('linkchecker'));
+}

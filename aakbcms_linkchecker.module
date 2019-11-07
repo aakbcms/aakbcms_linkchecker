@@ -1,0 +1,8 @@
+<?php
+/**
+ * @file
+ * Handle link checker configuration.
+ */
+
+include_once 'aakbcms_linkchecker.features.inc';
+
